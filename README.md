@@ -1,9 +1,18 @@
 # SFND_Unscented_Kalman_Filter
+
+In this project I have implemented an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. Passing the project required obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
+
+## My result
+
+<img src="media/UKFFinalProject.gif" width="700" height="500" />
+
+- TODO: Try unscented transform with LIDAR update as well. Currently, LIDAR data is fused using Kalman Filter.
+
+## The starter code was given and below are the instructions provided.
+
 Sensor Fusion UKF Highway Project Starter Code
 
 <img src="media/ukf_highway_tracked.gif" width="700" height="400" />
-
-In this project you will implement an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
 The main program can be built and ran by doing the following from the project top directory.
 
