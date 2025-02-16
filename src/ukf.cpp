@@ -72,10 +72,6 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
    * measurements.
    */
 
-//    while (true)
-//    {
-//      int i = 1;
-//    }
    // If the first loop, then initialize the state and covariance matrices
    if (!is_initialized_)
    {
