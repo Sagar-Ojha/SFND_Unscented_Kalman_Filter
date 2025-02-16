@@ -2,11 +2,14 @@
 
 In this project I have implemented an Unscented Kalman Filter to estimate the state of multiple cars on a highway using noisy lidar and radar measurements. Passing the project required obtaining RMSE values that are lower that the tolerance outlined in the project rubric. 
 
-## My result
+## My results
 
-<img src="media/UKFFinalProject.gif" width="700" height="500" />
+<p float="left">
+  <img src="media/UKFFinalProject1.gif" width="48%" height = "200" />
+  <img src="media/UKFFinalProject2.gif" width="48%" height = "200" />
+</p>
 
-- TODO: Try unscented transform with LIDAR update as well. Currently, LIDAR data is fused using Kalman Filter.
+- TODO: Try unscented transform with LIDAR update as well. Currently, only the Radar data is fused using UKF, whereas, the LIDAR data is fused using Kalman Filter.
 
 ## The starter code was given and below are the instructions provided.
 
